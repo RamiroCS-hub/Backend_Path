@@ -1,0 +1,29 @@
+{
+  "name": "jest-testing",
+  "version": "1.0.0",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node ./index.js",
+    "test": "jest index"
+  },
+  "jest": {
+    "transform": {
+      "^.+\\.[t|j]sx?$": "babel-jest"
+    }
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.19.2",
+    "jest-testing": "file:"
+  },
+  "devDependencies": {
+    "@babel/preset-env": "^7.25.3",
+    "jest": "^29.7.0",
+    "supertest": "^7.0.0"
+  }
+}
