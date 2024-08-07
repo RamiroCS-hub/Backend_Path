@@ -11,7 +11,7 @@ const delimiter = rateLimit({
   message: 'Rate limit exceeded' //Message to display when limit has been reached
 })
 
-app.use(helmet()) // -> This middleware is responsible for handling the HSTS Header in all responses
+app.use(helmet( )) // -> This middleware is responsible for handling the HSTS Header  and the CSP Header and all the important security headers in all responses
 app.use(delimiter)
 app.use(cors())
 
