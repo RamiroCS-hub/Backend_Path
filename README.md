@@ -14,3 +14,8 @@ I call backend path to this repository. I will put here all the information that
   * Client side Cache:
     - CDN 
   * Updating cache strategies
+- Web Security
+  * Api development good practices
+  * Authorization security strategies
+  * Access control security strategies
+  * Optimal protocols for security
