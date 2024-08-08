@@ -5,13 +5,13 @@ I call backend path to this repository. I will put here all the information that
   I hope someone find this useful for their carreer!
 
 ## TOPICS ABORDED
-- Authorization:
+- Authorization
   * Cookie Based Auth
   * SSO Auth
-- Caching:
-  * Server side Cache:
+- Caching
+  * Server side Cache
     * Redis
-  * Client side Cache:
+  * Client side Cache
     - CDN 
   * Updating cache strategies
 - Web Security
@@ -19,3 +19,9 @@ I call backend path to this repository. I will put here all the information that
   * Authorization security strategies
   * Access control security strategies
   * Optimal protocols for security
+  * OWASP Comunnitty -> Recommended to read (https://cheatsheetseries.owasp.org/index.html)
+  * CSP - CONTENT SECURITY POLICY
+- Testing
+  * Unit Testing
+  * Integration Testing
+  * Functional Testing
