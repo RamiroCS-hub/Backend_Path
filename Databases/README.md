@@ -31,3 +31,15 @@ There are five differents level of database normalization. Each level tell us di
   * Every non key column attribute must depend on the entire primary key, the whole key, and nothing but the key. this means that we cant have a non-key attribute that depends on other non-key attribute
 - Fourth Normal From (4NF)
   * Multivalued dependencies in a table must be multivalued dependencies on the key. This means that if we have  multivalued dependencies this can be only related to the whole key of the table
+
+### DATABASE INDEXES
+Database indexes are a way to structure the data in your database that help some querys to be faster and more efficient. But, what are exactly database indexes? Well, for example we can define a particular column in one of our table to be the index of that table, the database itself will organize all the data to accept the an index search for that column. I will show an example of how a indexed table can be organized:
+![alt text](image.png)
+In this example we can see that we have key values (the column that we decide to be the index) that are hierarchy strucured. This makes it easy and faster to make a query because the database will not be obligated to make a scan to find the data that we want, only needs to search for that column in the index. This only if we are searching by the index that we declared, if we are searching by another column the database will have to do a full scan
+
+#### TYPES OF INDEXES
+There are many types of index, but now i will talk about two groups. In one hand we have the **clustered index**. This is an index where all the data is organized keeping the index order (like the phote above)
+
+On the other hand we have **non-clustered** one. Contrary to the the clustered in this index all the data that is not the index is stored as normal data and the indexed points to the corresponding ones. This for example is useful if we want to have multiple indexes we can do it make it this type of index. The next is an example of a non-clustered index:
+![alt text](image-1.png)
+https://www.youtube.com/watch?v=ITcOiLSfVJQ - https://www.youtube.com/watch?v=-qNSXK7s7_w
